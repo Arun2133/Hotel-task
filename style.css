@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: sticky;
+    top: 0;
+    background-color:yellow;
+    z-index: 1;
+}
+.name{
+    background-color: black;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: teal;
+}
+.nav {
+    background-color: teal;
+    width: 100%;
+    height: 60px;
+} 
+
+
+
+li {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 13px;
+    font-weight: bolder;
+    font-size: 25px;
+   list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+    height: 30px;
+    text-shadow: 0px 0px 6px wheat;
+}
+
+
+
+#img1{
+    background-image: url("https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&w=1000&q=80");
+    /* opacity: 2.5; */
+    height: 691px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    
+    
+    
+}
+ h1{
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size:70px;
+    padding-top: 70px;
+    background-attachment: fixed;
+}
+
+span {
+    color: orange;
+}
+button {
+    margin-left: 700px;
+    margin-top: 70px;
+    padding: 15px;
+    color:white;
+    font-weight: bolder;
+    background-color: black;
+} 
+
+
+.second {
+    padding-top: 10px;
+
+    display: grid;
+    width: 100%;
+    height: 700px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 400px 280px;
+    gap: 5px;
+
+}
+.box1,.box2,.box3,.box4,.box5 {
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/03/f1/b5/f3/arensburg-hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2  {
+    grid-column-start: 4;
+    grid-column-end:7;
+    background-color: rgb(54,54,54);
+    padding: 40px;
+
+}
+
+
+.box3 {
+    grid-column-start: 1;
+    grid-column-end:3;
+    color: black;
+    /* background-color: #230338; */
+    background-image: radial-gradient(#537EC5,#202060);
+}
+.box4 {
+    grid-column-start: 3;
+    grid-column-end:5;
+    /* background-color: #726A95; */
+    background-image: radial-gradient(#537EC5,#202060);
+}
+
+.box5 {
+    grid-column-start: 5;
+    grid-column-end:7;
+    /* background-color: #726A95; */
+    background-image: radial-gradient(#537EC5,#202060);
+}
+.head2 {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+.span2 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+.para2 {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+    
+}
+.head3 {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    /* font-style: italic; */
+    padding-top: 30px;
+}
+
+.c3 {
+    text-align: justify;
+    padding: 20px 25px;
+    font-size: 18px;
+    line-height: 1.8;
+    color:white;
+}
